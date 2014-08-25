@@ -1,0 +1,1010 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"imag",
+				"image_link"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"user",
+				"userstripe"
+			],
+			[
+				"str",
+				"stripe_id"
+			],
+			[
+				"tr",
+				"True"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"con",
+				"confirm_message"
+			],
+			[
+				"it",
+				"it"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"EMAIL",
+				"EMAIL_HOST_USER"
+			],
+			[
+				"co",
+				"contact"
+			],
+			[
+				"P",
+				"ProfileAdmin"
+			],
+			[
+				"Var",
+				"VariationManager"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"Pro",
+				"ProductImage"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"u",
+				"update_qty"
+			],
+			[
+				"q",
+				"quantity"
+			],
+			[
+				"car",
+				"cart_item"
+			],
+			[
+				"cart",
+				"cart_item"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"Car",
+				"CartItem"
+			],
+			[
+				"Cat",
+				"CartItem"
+			],
+			[
+				"te",
+				"the_id"
+			],
+			[
+				"em",
+				"empty_message"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"for",
+				"from"
+			],
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"au",
+				"auto_now"
+			],
+			[
+				"aut",
+				"auto_now_add"
+			],
+			[
+				"p",
+				"products"
+			],
+			[
+				"Pr",
+				"ProductAdmin"
+			],
+			[
+				"end",
+				"endblock"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"m",
+				"multiples_of_3_or_5"
+			],
+			[
+				"we",
+				"write"
+			],
+			[
+				"HTT",
+				"HTTPServer"
+			],
+			[
+				"Simpl",
+				"SimpleHTTPRequestHandler"
+			],
+			[
+				"S",
+				"SimpleHTTPRequestHandler"
+			],
+			[
+				"link",
+				"link"
+			],
+			[
+				"url",
+				"urlopen"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"N",
+				"NullWriter"
+			],
+			[
+				"Hm",
+				"HTMLParser"
+			],
+			[
+				"a",
+				"AbstractFormatter"
+			],
+			[
+				"form",
+				"format"
+			],
+			[
+				"fm",
+				"formatter"
+			],
+			[
+				"se",
+				"sorted"
+			],
+			[
+				"sel",
+				"setLocation"
+			],
+			[
+				"f",
+				"file"
+			],
+			[
+				"o",
+				"open"
+			],
+			[
+				"den",
+				"denominator"
+			],
+			[
+				"de",
+				"denom"
+			],
+			[
+				"dem",
+				"denominator"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"sa",
+				"sa"
+			],
+			[
+				"ret",
+				"retStr"
+			],
+			[
+				"pay",
+				"payRate"
+			],
+			[
+				"pa",
+				"payRate"
+			],
+			[
+				"y",
+				"ycor"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"st",
+				"stu1"
+			],
+			[
+				"ch",
+				"changeName"
+			],
+			[
+				"Ch",
+				"changeName"
+			],
+			[
+				"pe",
+				"person2"
+			],
+			[
+				"Per",
+				"Person"
+			],
+			[
+				"per",
+				"person1"
+			],
+			[
+				"s",
+				"stul"
+			],
+			[
+				"las",
+				"lastFirst"
+			],
+			[
+				"even",
+				"evens"
+			],
+			[
+				"nu",
+				"numbers"
+			],
+			[
+				"numb",
+				"numberssq"
+			],
+			[
+				"sq",
+				"sqnum"
+			],
+			[
+				"number",
+				"number"
+			],
+			[
+				"sqn",
+				"sqnumber"
+			],
+			[
+				"fi",
+				"fileit"
+			],
+			[
+				"Fac",
+				"factorial"
+			],
+			[
+				"k",
+				"keys"
+			],
+			[
+				"r",
+				"raw_input"
+			],
+			[
+				"gra",
+				"grade"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"deno",
+				"denom"
+			],
+			[
+				"lett",
+				"letterGrade"
+			],
+			[
+				"hours",
+				"hoursWorked"
+			],
+			[
+				"ho",
+				"hoursWorked"
+			],
+			[
+				"you",
+				"yourName"
+			],
+			[
+				"num",
+				"number1"
+			],
+			[
+				"come",
+				"come_thru"
+			],
+			[
+				"com",
+				"come_thru"
+			],
+			[
+				"abbre",
+				"abbrev"
+			],
+			[
+				"abb",
+				"abbreviated"
+			],
+			[
+				"ci",
+				"cities"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"sore",
+				"sort_sentence"
+			],
+			[
+				"print",
+				"print_first_word"
+			],
+			[
+				"sor",
+				"sort_words"
+			],
+			[
+				"bre",
+				"break_words"
+			],
+			[
+				"sr",
+				"start_point"
+			],
+			[
+				"start",
+				"start_point"
+			],
+			[
+				"wi",
+				"weight"
+			],
+			[
+				"Be",
+				"BeerSchema"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"A",
+				"AppendService"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"fire",
+				"FIREBASE_URI"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"background",
+				"backgroundColor"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"he",
+				"height	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control ",
+				"Package Control: Add Channel"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insgt",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 141.0,
+		"history":
+		[
+			"Theme - Orchis",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mgnanakone/Desktop/seven/seven/src/profiles/admin.py",
+		"/Users/mgnanakone/Desktop/django-practice/test_core_project/contact/models.py",
+		"/Users/mgnanakone/Desktop/django-practice/test_core_project/about/views.py",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/checkout.html",
+		"/Users/mgnanakone/Desktop/seven/seven/src/seven/settings.py",
+		"/Users/mgnanakone/Desktop/seven/seven/src/seven/urls.py",
+		"/Users/mgnanakone/Desktop/seven/seven/src/profiles/views.py",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/profile.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/account/login.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/home.html",
+		"/Users/mgnanakone/Desktop/seven/seven/src/contact/views.py",
+		"/Users/mgnanakone/Desktop/seven/seven/src/contact/forms.py",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/navbar.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/account/logout.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/account/signup.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/contact.html",
+		"/Users/mgnanakone/Documents/Emails/Archive/July/ShoeMint/Week 4/pr 956 SHowroom 4/eightGrid.htm",
+		"/Users/mgnanakone/Desktop/seven/seven/bin/django-admin",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/about.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/bootstrap.template.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/templates/base.html",
+		"/Users/mgnanakone/Desktop/seven/seven/static/static/css/main.css",
+		"/Users/mgnanakone/Desktop/seven/seven/src/profiles/models.py",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/8 Grid/eightGrid.htm",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/cart/view.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/ecommerce/urls.py",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce.sublime-project",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/navbar.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/products/single.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/products/views.py",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/ecommerce/settings.py",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/products/models.py",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/products/results.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/carts/admin.py",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/16 Grid /sixteenGrid.htm",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/view.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/cart.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/base.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/products/home.html",
+		"/Users/mgnanakone/BoxSync/Books/BoA/MikesInfo.txt",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/products/admin.py",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/templates/products/all.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/products/all.html",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/SM/No Grid/Currents.html",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/SHM/8 Grid/eightGrid.htm",
+		"/Users/mgnanakone/BoxSync/Projects/Python/Project Euler/3.py",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/products/templates/home.html",
+		"/Users/mgnanakone/Desktop/ecommerce/ecommerce/db.sqlite3",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/12 Grid/twelveGrid.htm",
+		"/Users/mgnanakone/BoxSync/Projects/Bitcoin Ticker/ticker.py",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/8 Grid/untitled.html",
+		"/Users/mgnanakone/Documents/Emails/July/JewelMint/Week 1/pr26 Credit Alert Skippers/2014-06-2x.htm",
+		"/Users/mgnanakone/Box Sync/Projects/Udemy Python Web Development/01688 Web Programming With Python/Working Files/Chapter 6/nba.html",
+		"/Users/mgnanakone/sites/beachmint/platform-v2/index.js",
+		"/Users/mgnanakone/sites/beachmint/platform-v2/mintjs/lib/templates/checkout/thankyou.hbs",
+		"/Users/mgnanakone/sites/beachmint/platform-v2/social/marketing/vipbox/thankyou.html",
+		"/Users/mgnanakone/sites/beachmint/platform-v2/views/checkout/thankyou.hbs",
+		"/Users/mgnanakone/sites/beachmint/platform-v2/testHelper.js",
+		"/Users/mgnanakone/Box Sync/Projects/Udemy Python/01699 Learning Python Programming/Working Files/Chapter 8/forfile.py",
+		"/Users/mgnanakone/Box Sync/Projects/Udemy Python/01699 Learning Python Programming/Working Files/Chapter 8/text.txt",
+		"/Users/mgnanakone/Documents/Emails/June/Misc./NM Issue 13/13.html",
+		"/Users/mgnanakone/Box Sync/Projects/Udemy Python/test.txt",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex40.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex33.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex29.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex28.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex27.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex26.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex25.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex24.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex10.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex9.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex8.py",
+		"/Users/mgnanakone/Box Sync/Projects/Learn Python the Hard Way/ex7.py",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 3/XMINT Memorial Day/IM/noGrid.htm",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 3/XMINT Memorial Day/IM/2014-05-2x.htm",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 3/XMINT Memorial Day/JM/noGrid.htm",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 3/XMINT Memorial Day/JM/2014-05-2x.htm",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 3/XMINT Memorial Day/SHM/noGrid.htm",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 3/XMINT Memorial Day/SHM/2014-05-2x.htm",
+		"/Users/mgnanakone/Desktop/beerlocker/models/server.js",
+		"/Users/mgnanakone/Desktop/beerlocker/models/package.json",
+		"/Users/mgnanakone/Dropbox/Dropbox/apps/site44/mint-sightings.site44.com/index.html",
+		"/Users/mgnanakone/Documents/Emails/May/IntiMint/Week 1/pr132 TheEdit/2014-05-0T.htm",
+		"/Users/mgnanakone/Box Sync/Projects/2014/May/Angular JS Infinite Skills/Learning AngularJS - Working Files/Chapter 5/Working Through Your First Directive - Part 3/index.html",
+		"/Users/mgnanakone/Box Sync/Projects/2014/April/Angular JS Infinite Skills/Learning AngularJS - Working Files/Chapter 5/Working Through Your First Directive - Part 1/index.html",
+		"/Users/mgnanakone/Box Sync/Projects/2014/April/Angular JS Infinite Skills/Learning AngularJS - Working Files/Chapter 5/Working Through Your First Directive - Part 2/app.js",
+		"/Users/mgnanakone/Box Sync/Projects/2014/April/Angular JS Infinite Skills/Learning AngularJS - Working Files/Chapter 5/Working Through Your First Directive - Part 2/index.html",
+		"/Users/mgnanakone/Box Sync/Projects/2014/April/Angular JS Infinite Skills/Learning AngularJS - Working Files/Chapter 5/Working Through Your First Directive - Part 1/app.js",
+		"/Users/mgnanakone/Box Sync/Projects/2014/April/Mintsider Campaign Search/Code/app/services/customersFactory.js",
+		"/Users/mgnanakone/Documents/Emails/April/IntiMint/Week 4/ONBOARDING/Last Chance/Prospects.html",
+		"/Users/mgnanakone/Documents/Emails/April/IntiMint/Week 4/ONBOARDING/Last Chance/Currents.html",
+		"/Users/mgnanakone/Downloads/node-web-scraper-master/scraping,js",
+		"/Users/mgnanakone/Downloads/Code 2/UsingFactoriesAndServices/Begin/app/views/orders.html",
+		"/Users/mgnanakone/Downloads/Code 2/UsingFactoriesAndServices/Begin/app/views/customers.html",
+		"/Users/mgnanakone/Documents/Emails/April/StyleMint/Week 3/PR687 Sunset Bustier/2014-03-TT.html",
+		"/Users/mgnanakone/mike-g-mail-frontend/noYeoman/bootstrap-colorpicker.js.css",
+		"/Users/mgnanakone/mike-g-mail-frontend/noYeoman/bootstrap-colorpicker.css",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/angular-route.js",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/app.js",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/index.html",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/services/FirebaseApi.js",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/services/FirebaseApi.coffee",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/filters/markdown.js",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/filters/markdown.coffee",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/controllers/postsShow.js",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/controllers/postsShow.coffee",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/controllers/main.coffee",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/app.coffee",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/controllers/postsEdit.js",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/controllers/postsEdit.coffee",
+		"/Users/mgnanakone/Downloads/fireblog-master/app/scripts/main.js",
+		"/Users/mgnanakone/Documents/Emails/April/JewelMint/Week 2/PR805 Weekly Giveaway Email/2014-03-TT.html",
+		"/Users/mgnanakone/Documents/Emails/April/JewelMint/Week 2/PR805 Weekly Giveaway Email/jm-dynamic-16-product-grid-prices-010614.html",
+		"/Users/mgnanakone/Documents/Emails/April/JewelMint/Week 2/PR805 Weekly Giveaway Email/sixteenGrid.html",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/16 Grid /sixteenGrid.html",
+		"/Users/mgnanakone/Documents/Emails/April/JewelMint/Week 2/PRXX VIPBOX/V1.html",
+		"/Users/mgnanakone/Documents/Emails/April/ShoeMint/Week 2/PR598 Dedicated New Styles/barebones/v1.html",
+		"/Users/mgnanakone/Desktop/Fanfield/player_data.txt",
+		"/Users/mgnanakone/Downloads/grid-master/src/gridList.js",
+		"/Users/mgnanakone/Downloads/grid-master/demo/load.js",
+		"/Users/mgnanakone/Downloads/grid-master/index.html",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/12 Grid/twelveGrid.html",
+		"/Users/mgnanakone/Documents/Old Templates/SHM/8 Grid/shm-dynamic-8-product-grid-010614.html",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/SHM/8 Grid/eightGrid.html",
+		"/Users/mgnanakone/Documents/Old Templates/JM/8 Grid/jm-dynamic-8-product-grid-prices-010614.html",
+		"/Users/mgnanakone/Documents/Templates/Mike G Templates/JM/8 Grid/eightGrid.html",
+		"/Users/mgnanakone/Documents/Old Templates/David's Templates/ShoeMint/shm-dynamic-8-product-grid-010614.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://crumb.beachmint.com/email_images/shoemint/promos/2014/July/showroom4/",
+			"http://crumb.beachmint.com/email_images/shoemint/promos/2014/July/showroom2/",
+			"styles",
+			"VariationManager",
+			"class Savings(Account)",
+			"acctNumber",
+			"person1 = Person('Jane Doe','F',23)",
+			"inst",
+			"instagram.com",
+			"instagram",
+			"http://crumb.beachmint.com/email_images/shoemint/promos/2014/June/newStylesAdded/",
+			"content",
+			"ifram",
+			"font-weight: normal; text-transform: uppercase; text-decoration: none;\">$lookup(prod_name",
+			"tumblr_controls",
+			"name:",
+			"Vertical",
+			"Project-Number",
+			"Deployment-Date",
+			"Deployment Date",
+			"Project No",
+			"\"Campaign:\"",
+			"\"Vertical:\"",
+			"\"Project No:\"",
+			"\"Deployment Date:\"",
+			"\"status:\":",
+			"\"status:\"",
+			"{\n    \"Status:\":\"\",\n    \"Deployment Date:\":\"\",\n    \"Project No:\":\"\",\n    \"Vertical:\":\"\",\n    \"Campaign:\":\"\"\n  },",
+			".css",
+			"11645",
+			"href",
+			"songOne",
+			"friends",
+			"\"SALE_PRICE_NON_MEMBER\"",
+			"\"SALE_PRICE_MEMBER\"",
+			"\"REGULAR_PRICE_NON_MEMBER\"",
+			"\"REGULAR_PRICE_MEMBER\"",
+			"\"FIELD11\":\"\",\n    \"FIELD12\":\"\",",
+			"\"PARENT_SKU\"",
+			"\"PRODUCT_COUNT\"",
+			"\"PRODUCT_SELLABLE\"",
+			"\"PRODUCT_IMAGE\"",
+			"\"PRODUCT_URL\":",
+			"\"MODIFIED_DATE_\":",
+			"\"FIELD4\":\"\",",
+			"\"FIELD3\":\"\",",
+			"\"PRODUCT_NAME\":",
+			"\"SKU\":",
+			"\"url\"",
+			"\"name\"",
+			"Name",
+			"URL",
+			"_",
+			"\n,",
+			"http://www.nba.com/playerfile/",
+			"http://crumb.beachmint.com/email_images/intimint/promos/2014/March/mintsiderCashCreditDeposit/currentLastChance/",
+			"http://crumb.beachmint.com/email_images/intimint/promos/2014/March/mintsiderCashCreditDeposit/current/",
+			"mailTwo",
+			"_emailTwo}}\"",
+			"\" />",
+			"}}\"",
+			"One}}",
+			"Four",
+			"Three",
+			"Two",
+			"One",
+			"12px",
+			"neckla",
+			"lookuptable(!MasterData, PRODUCTS_TRUNC, SKU, lookup(display_prod_1), lookup(display_prod_2), lookup(display_prod_3), lookup(display_prod_4), lookup(display_prod_5), lookup(display_prod_6), lookup(display_prod_7), lookup(display_prod_8), lookup(display_prod_9), lookup(display_prod_10), lookup(display_prod_11), lookup(display_prod_12),",
+			"img",
+			" <a href=\"$clickthrough(2_earring_link_cur)$\" title=\"$lookup(earring_name2)$\" ",
+			"alt=\"$lookup(earring_name2)$\"",
+			"alt=\"$lookup(earring_name1)$\"",
+			" <a href=\"$clickthrough(1_earring_link_cur)$\" title=\"$lookup(earring_name1)$\" ",
+			"how to stay\n                                                    <br />warm all winter</td>",
+			"winter beauty rescue",
+			"it's olivia's world",
+			"http://www.intimint.com/intimates/soire-new-demi-cup-bra",
+			"http://www.shoemint.com/shoes/stiges",
+			"http://www.stylemint.com/shirts/classic-skinny",
+			"http://www.jewelmint.com/jewelry/horizon-ring-set",
+			"http://nylonmag.com/articles/how-to-stay-warm-in-tights-and-dresses-in-winter",
+			"http://www.nylonmag.com/articles/winter-skincare",
+			"Fetherston",
+			"Save Now",
+			"MainCtrl",
+			"inp",
+			"Jia PJ Camisole",
+			"modelbottom",
+			"400",
+			"719",
+			"	$setglobalvars(varlist(12,prod_url1,prod_url2,prod_url3,prod_url4,prod_name1,prod_name2,prod_name3,prod_name4,prod_img1,prod_img2,prod_img3,prod_img4,lookuptable(!MasterData,IM_PRODUCTS_TRUNC_IM,SKU,lookup(display_prod_1),lookup(display_prod_2),lookup(display_prod_3),lookup(display_prod_4),IM_IM_PRODUCT_URL),lookuptable(!MasterData,IM_PRODUCTS_TRUNC_IM,SKU,lookup(display_prod_1),lookup(display_prod_2),lookup(display_prod_3),lookup(display_prod_4),PARENT_NAME),lookuptable(!MasterData,IM_PRODUCTS_TRUNC_IM,SKU,lookup(display_prod_1),lookup(display_prod_2),lookup(display_prod_3),lookup(display_prod_4),PRODUCT_IMAGE)))$",
+			"lookuptable(!MasterData,IM_PRODUCTS_TRUNC_IM_,SKU,lookup(display_prod_1),lookup(display_prod_2),lookup(desplay_prod_3),lookup(display_prod_4), IM_IM_PRODUCT_URL),",
+			"lookuptable(!MasterData,IM_PRODUCTS_TRUNC_IM,SKU,lookup(display_prod_1),lookup(display_prod_2),lookup(display_prod_3),lookup(display_prod_4),PARENT_NAME),lookuptable(!MasterData,IM_PRODUCTS_TRUNC_IM_SKU,lookup(display_prod_1),lookup(display_prod_2),lookup(display_prod_3),lookup(display_prod_4),PRODUCT_IMAGE)))$",
+			"dlons895neasy",
+			"/email_images/jewelmint/promos/012314/gallery/",
+			"bikini",
+			"email_images/intimint/promos/012214/I",
+			"skinny_",
+			"boyfriend_",
+			"232",
+			"285",
+			"Grey ",
+			"boyfriend_",
+			"http://crumb.beachmint.com/email_images/stylemint/promos/012114/gwp/",
+			"http://crumb.beachmint.com/email_images/stylemint/promos/012114/gwp",
+			"stiges",
+			"height=",
+			"_pro",
+			"product_link)$",
+			"link_pro)$\" tit",
+			")$\" tit",
+			")$\" ",
+			")$\"",
+			"dolman)",
+			"_cur)$",
+			"<table>",
+			"title=\"",
+			"alt=\"",
+			"dolman",
+			"santander",
+			"skinny",
+			"emily",
+			"dolman",
+			"<table>",
+			"http://crumb.beachmint.com/email_images/jewelmint/promos/PR154/",
+			"_cur)$",
+			"productFour"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"http://crumb.beachmint.com/email_images/shoemint/promos/2014/August/",
+			"http://crumb.beachmint.com/email_images/shoemint/promos/2014/July/showroom2/new/",
+			"http://crumb.beachmint.com/email_images/shoemint/promos/2014/June/newStylesAdded/compressed/",
+			"font-weight: normal; text-transform: uppercase; text-decoration: none; text-align:center\">$lookup(prod_name",
+			"brand:",
+			"name",
+			"ProjectNumber",
+			"DeploymentDate",
+			"Deployment-Date",
+			"Project-Number",
+			"Campaign",
+			"Vertical",
+			"Project No",
+			"Deployment Date",
+			"status:",
+			"",
+			"playlist",
+			"SALE_PRICE_NON_MEMBER",
+			"SALE_PRICE_MEMBER",
+			"REGULAR_PRICE_NON_MEMBER",
+			"REGULAR_PRICE_MEMBER",
+			"",
+			"PARENT_SKU",
+			"PRODUCT_COUNT",
+			"PRODUCT_SELLABLE",
+			"PRODUCT_IMAGE",
+			"PRODUCT_URL:",
+			"MODIFIED_DATE_:",
+			"",
+			"PRODUCT_NAME:",
+			"SKU:",
+			"url",
+			"name",
+			"url",
+			" ",
+			"',",
+			",'",
+			", ",
+			"http://crumb.beachmint.com/email_images/intimint/promos/2014/March/mintsiderCashCreditDeposit/prospectLastChance/",
+			"http://crumb.beachmint.com/email_images/intimint/promos/2014/March/mintsiderCashCreditDeposit/prospect/",
+			"http://crumb.beachmint.com/email_images/intimint/promos/2014/March/mintsiderCashCreditDeposit/currentLastChance/",
+			"mailThree",
+			"_emailThree}}\"",
+			"_emailTwo\" />",
+			"_emailTwo}}\"",
+			"Five}}",
+			"Four}}",
+			"Three}}",
+			"Two}}",
+			"Five",
+			"Four",
+			"Three",
+			"Two",
+			"14px",
+			" <a href=\"$clickthrough(8_product_link_cur)$\" title=\"$lookup(prod_name8)$\"",
+			"alt=\"$lookup(prod_name8)$\"",
+			"alt=\"$lookup(prod_name7)$\"",
+			" <a href=\"$clickthrough(7_product_link_cur)$\" title=\"$lookup(prod_name7)$\"",
+			"Look Perfect in Plaid Everything",
+			"How to Smell Like Spring",
+			"Get Girly in Kate Mara's Version of a Tux",
+			"http://www.intimint.com/intimates/bel-air-soft-triangle-bra?id=27900",
+			"http://www.stylemint.com/shirts/samson-sweater",
+			"http://www.jewelmint.com/jewelry/hawk-flight-cuff",
+			"http://www.shoemint.com/shoes/adrian",
+			"http://www.nylonmag.com/articles/plaid-trend-fall-14",
+			"http://www.nylonmag.com/articles/best-rose-fragrances",
+			"Shop Now",
+			"",
+			"/email_images/shoemint/promos/012314/",
+			"email_images/intimint/promos/012314/",
+			"http://crumb.beachmint.com/email_images/stylemint/promos/012114/weekend_gwp/",
+			"product_link_pro)$",
+			"link)$\" tit",
+			")$\" tit",
+			"_pro)$\" tit",
+			"_pro)$",
+			")$",
+			"http://crumb.beachmint.com/email_images/jewelmint/promos/011714/sugarshock/",
+			")$",
+			"goldeneaglering",
+			"hummingbirdcuff",
+			"hummingbirdearrings",
+			"fourseasonsringset",
+			"promos/011714/",
+			"email_images/jewelmint/promos/pr155/",
+			"235",
+			" colspan=\"2\"",
+			"",
+			"colspan=\"2\"",
+			"",
+			"colspan=\"3\"",
+			"_pro"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 401.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ecommerce.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"bin/django-admin"
+			],
+			[
+				"base",
+				"static/templates/base.html"
+			],
+			[
+				"thank",
+				"mintjs/lib/views/checkout/thankyou.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 579.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
