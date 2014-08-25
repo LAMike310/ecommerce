@@ -16,3 +16,22 @@ def all(request):
 	context = {'products': products }
 	template = 'products/all.html'
 	return render(request, template, context)
+
+# def single(request, slug):
+# 	try:
+# 		product = Product.objects.get(slug=slug)
+# 		print product.title
+# 		context = {'product': product }
+# 		template = 'products/single.html'
+# 		return render(request, template, context)
+# 	except:
+# 		raise Http404
+
+def single(request, slug):
+	try:
+		product = Product.objects.get(slug=slug)
+		context = {'product': product}
+		template = 'products/single.html'	
+		return render(request, template, context)
+	except:
+		raise Http404
