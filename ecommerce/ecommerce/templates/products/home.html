@@ -10,19 +10,42 @@ Welcome to
 
 {% block jquery %}
 
-alert("Welcome");
+{% endblock %}
 
+{% block jumbotron %}
+<div class="container">
+	<div class="jumbotron">
+	  <h1>Hello {{username_is}}!</h1>
+	  <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+	  <p>To see the difference between static and fixed top navbars, just scroll.</p>
+	  <p>
+	    <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+	  </p>
+	</div>
+</div>
 {% endblock %}
 
 {% block content %}
 
-<div class="jumbotron">
-  <h1>Hello {{username_is}}!</h1>
-  <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-  <p>To see the difference between static and fixed top navbars, just scroll.</p>
-  <p>
-    <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-  </p>
+
+
+<div class="row">
+	<div class="col-sm-12">
+	{% for product in products %}
+		<div class="col-sm-4">
+		    {% for item in product.productimage_set.all %} 
+			    {% if item.featured%}
+			    <img src="{{ MEDIA_URL }}{{ item.image }}" style="width:33%">
+			    {% endif %} 
+		    {% endfor %} 
+
+		    {{ product.id }} 
+		    {{ product.title }} 
+		    {{ product.price }}
+		</div>
+
+		{% cycle "" "" "</div><br /><div class='row'>" %}			
+	{% endfor %}
 </div>
 
 {% endblock %}
