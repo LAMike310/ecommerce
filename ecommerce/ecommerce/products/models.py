@@ -23,7 +23,7 @@ class Product(models.Model):
 		return self.price
 
 	def get_absolute_url(self):
-		return reverse('single_product',  kargs= {"slug": self.slug})
+		return reverse('single_product',  kwargs= {"slug": self.slug})
 
 class ProductImage(models.Model):
 	product = models.ForeignKey(Product)
