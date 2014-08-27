@@ -4,6 +4,18 @@ from django.shortcuts import render
 
 from .models import Product, ProductImage
 
+def search(request):
+	try:
+		q = request.GET.get('q')
+	except:
+		q = None
+	if q:
+		context = {'query': q}
+		template = 'products/results.html'
+	else:
+		template = 'products/home.html'
+		context = {}
+	return render(request, template, context)
 
 def home(request):
 	products = Product.objects.all()
@@ -17,15 +29,6 @@ def all(request):
 	template = 'products/all.html'
 	return render(request, template, context)
 
-# def single(request, slug):
-# 	try:
-# 		product = Product.objects.get(slug=slug)
-# 		print product.title
-# 		context = {'product': product }
-# 		template = 'products/single.html'
-# 		return render(request, template, context)
-# 	except:
-# 		raise Http404
 
 def single(request, slug):
 	try:
