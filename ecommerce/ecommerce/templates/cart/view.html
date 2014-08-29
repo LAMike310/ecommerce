@@ -28,7 +28,7 @@
 </tr>
 </tfoot>
 
-{% for item in cart.items.all %}
+{% for item in cart.cartitem_set.all %}
 
 <tr><td>{{ item.product }}</td><td>{{ item.product.price }}</td>
 <td>{{ item.quantity }}</td>
