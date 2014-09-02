@@ -9,31 +9,44 @@ from .models import Cart, CartItem
 
 def view(request):
 	try:
-		the_id =request.session['cart_id']
+		the_id = request.session['cart_id']
 	except:
 		the_id = None
-
-	if the_id:	
+	if the_id:
 		cart = Cart.objects.get(id=the_id)
 		context = {"cart": cart}
 	else:
-		empty_message = "You're cart is empty... please keep shopping!"
+		empty_message = "Your Cart is Empty, please keep shopping."
 		context = {"empty": True, "empty_message": empty_message}
-
-
+	
 	template = "cart/view.html"
 	return render(request, template, context)
 
-def update_cart(request, slug, qty):
+
+def update_cart(request, slug):
 	request.session.set_expiry(120000)
 	try:
-		the_id =request.session['cart_id']
+		qty = request.GET.get('qty')
+		update_qty = True
+	except:
+		qty = None
+		update_qty = False
+
+	try:
+		attr = request.GET.get("attr")
+	except:
+		attr = None
+		
+	print attr
+	
+	try:
+		the_id = request.session['cart_id']
 	except:
 		new_cart = Cart()
 		new_cart.save()
 		request.session['cart_id'] = new_cart.id
 		the_id = new_cart.id
-
+	
 	cart = Cart.objects.get(id=the_id)
 
 	try:
@@ -45,15 +58,16 @@ def update_cart(request, slug, qty):
 
 	cart_item, created = CartItem.objects.get_or_create(cart=cart, product=product)
 	if created:
-		print "Yayyy"
+		print "yeah"
 
-	if qty == 0:
-		cart_item.delete()
+	if update_qty and qty:
+		if int(qty) == 0:
+			cart_item.delete()
+		else:
+			cart_item.quantity = qty
+			cart_item.save()
 	else:
-		cart_item.quantity = qty
-		cart_item.save()
-
-
+		pass
 	# if not cart_item in cart.items.all():
 	# 	cart.items.add(cart_item)
 	# else:
@@ -68,5 +82,4 @@ def update_cart(request, slug, qty):
 	cart.total = new_total
 	cart.save()
 
-
-	return HttpResponseRedirect(reverse('cart'))
+	return HttpResponseRedirect(reverse("cart"))
