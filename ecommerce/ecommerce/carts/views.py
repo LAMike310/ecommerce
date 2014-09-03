@@ -36,9 +36,10 @@ def update_cart(request, slug):
 		attr = request.GET.get("attr")
 	except:
 		attr = None
-		
+
 	print attr
-	
+
+		
 	try:
 		the_id = request.session['cart_id']
 	except:

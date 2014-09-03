@@ -1,49 +1,50 @@
 {% extends 'base.html' %}
+
 <div class="page-header">
+  <h1>{{ product.title }}</h1>
 </div>
+
 {% block content %}
 
 
+<div class='row'>
+	<div class='col-sm-4'>
+	{% for img in images %}
 
-<div class="row">
-	<div class="col-sm-4">
-		{% for img in images %}
+		{% if img.featured %}
+		<div class="col-xs-12">
+			<img class='img-responsive' src="{{ MEDIA_URL }}{{ img.image }}" />
+		<hr/>
+		</div>
+		{% endif %}
+			{% endfor %}
+	{% for img in images %}
+		{% if not img.featured %}
+		<div class="col-xs-6">
+	    <a href="#" class="thumbnail">
+	      <img class='img-responsive' src="{{ MEDIA_URL }}{{ img.image }}">
+	    </a>
+	  	</div>
 
-			 {% if img.featured %}
-			 <div class="col-xs-12">
-			    <img src="{{ MEDIA_URL }}{{ img.image }}" class="img-responsive">
-			     <br/>
-			  </div>
-
-			  {% endif %}
-		{% endfor %}
-
-		{% for img in images %}
-			 {% if not img.featured %} 
-			 <div class="col-xs-6">
-			    <a href="#" class="thumbnail">
-			    <img src="{{ MEDIA_URL }}{{ img.image }}" class="img-responsive">
-			    </a>
-			  </div>
-			 {% endif %}
-		{% endfor %}
+		{% endif %}
+								 
+	{% endfor %}
 	</div>
-	<div class="col-sm-8">
-		
-		<h1>{{product.title}} <a href="{% url 'update_cart' product.slug %}?qty=12" class="pull-right">Add to Cart</a></h1>
-		<form class="form pull-right" method="GET" action="{% url 'update_cart' product.slug %}">
-		<input name="qty" type="number" value="1" />
-		<input type="attr" type="text" placeholder="color">
-		<input type="submit" value="Add to cart" />
+	<div class='col-sm-8'>
+	 <h1>{{ product.title }} 
 
-		</form>
-		<hr/>
-		Price: {{product.price}}
-		Shipping: Free w/ $25 purchase.
-		<hr/>
-		{{ product.description|linebreaks }}
+	 <a href='{% url "update_cart" product.slug %}?qty=12' class='pull-right'>Add to Cart</a></h1>
+	 	 <form class='form pull-right' method='GET' action='{% url "update_cart" product.slug %}'>
+	 	<input name='qty' type='number' value='1'/>
+	 	<input name='attr' type='text' placeholder='color' />
+	 	<input type='submit' value='Add to cart'/>
+	 </form>
+	 <hr/>
+	 Price: {{ product.price }} <br/>
+	 Shipping: Free with $25+ purchase.
+	 <hr/>
+	{{ product.description|linebreaks }}
 	</div>
 </div>
-
 
 {% endblock %}
