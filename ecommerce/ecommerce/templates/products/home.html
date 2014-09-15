@@ -39,7 +39,15 @@ Welcome to
 			    {% for item in product.productimage_set.all %} 
 
 		      		{% if item.featured%}
-					    <img src="{{ MEDIA_URL }}{{ item.image }}" class="img-responsive">
+	<a href="{{ product.get_absolute_url }}">
+  		<div style="width:200px; 
+  					height:200px; 
+  					background-image: url('{{ MEDIA_URL }}{{ item.image }}');
+  					background-repeat:no-repeat;
+  					background-size: cover;
+  					background-position: center;
+  					margin: 0 auto">
+  		</div></a>
 					 {% endif %} 
 			    {% endfor %} 
 
