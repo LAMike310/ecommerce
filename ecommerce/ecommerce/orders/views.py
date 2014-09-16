@@ -1,5 +1,6 @@
 import time
 
+from django.contrib.auth.decorators import login_required
 from django.core.urlresolvers import reverse
 from django.shortcuts import render, HttpResponseRedirect
 
@@ -19,23 +20,29 @@ def orders(request):
 
 
 # require usr login
+@login_required
 def checkout(request):
 	try:
 		the_id = request.session['cart_id']
 		cart = Cart.objects.get(id=the_id)
-		print cart
 	except:
 		the_id = None
 		# return HttpResponseRedirect(reverse("cart"))
 		return HttpResponseRedirect(reverse("cart"))
 
-	new_order, created = Order.objects.get_or_create(cart=cart)
-	if created:
+	try:
+		new_order = Order.objects.get(cart=cart)
+	except Order.DoesNotExist:
+		new_order = Order()
+		new_order.cart = cart
+		new_order.user = request.user
 		new_order.order_id = id_generator()
 		new_order.save()
-	new_order.user = request.user
-	new_order.save()
-	# run credit card info
+	except:
+		return HttpResponseRedirect(reverse("cart"))
+
+	# address
+	# cc info
 	if new_order.status == "Finished":
 		del request.session['cart_id']
 		del request.session['items_total']
