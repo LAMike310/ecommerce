@@ -45,8 +45,8 @@
 <td><a href='{% url "remove_from_cart" item.id %}'>Remove</a></td>
 </tr>
 {% endfor %}
-
 </table>
+<a href='{% url "checkout" %}'>Checkout</a>
 {% endif %}
 </div>
 
