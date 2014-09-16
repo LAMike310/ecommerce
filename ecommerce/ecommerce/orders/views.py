@@ -6,8 +6,19 @@ from django.shortcuts import render, HttpResponseRedirect
 # Create your views here.
 
 from carts.models import Cart
-from .models import Order
 
+from .models import Order
+from .utils import id_generator
+
+def orders(request):
+
+	context = {}
+	template = "orders/user.html"
+	return render(request, template, context)
+
+
+
+# require usr login
 def checkout(request):
 	try:
 		the_id = request.session['cart_id']
@@ -20,13 +31,10 @@ def checkout(request):
 
 	new_order, created = Order.objects.get_or_create(cart=cart)
 	if created:
-		# assign a user 
-		# subtotal 
-		# tax
-		# final price
-		new_order.order_id = str(time.time())
+		new_order.order_id = id_generator()
 		new_order.save()
-	# assign price	
+	new_order.user = request.user
+	new_order.save()
 	# run credit card info
 	if new_order.status == "Finished":
 		del request.session['cart_id']
