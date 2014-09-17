@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'products',
     'carts',
     'orders',
+    'accounts',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -90,7 +91,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.contrib.messages.context_processors.messages",
 )
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
@@ -109,3 +109,6 @@ STATICFILES_DIRS = (
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
+
+STRIPE_SECRET_KEY = 'sk_test_4Y2nvTc7kpjBabyc0KyotMvd'
+STRIPE_PUBLISHABLE_KEYS = 'pk_test_4Y2nMHj0bA6a7f6KilMT7zwJ'
